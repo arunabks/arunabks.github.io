@@ -853,20 +853,20 @@ section {
   transition: ease-in-out 0.3s;
 }
 
-#ourwork .portfolio-item .portfolio-info .preview-link:hover,
-#ourwork .portfolio-item .portfolio-info .details-link:hover {
+#portfolio .portfolio-item .portfolio-info .preview-link:hover,
+#portfolio .portfolio-item .portfolio-info .details-link:hover {
   color: #fff;
 }
 
-#ourwork .portfolio-item .portfolio-info .details-link {
+#portfolio .portfolio-item .portfolio-info .details-link {
   right: 15px;
 }
 
-#ourwork .portfolio-item:hover img {
+#portfolio .portfolio-item:hover img {
   top: -30px;
 }
 
-#ourwork .portfolio-item:hover .portfolio-info {
+#portfolio .portfolio-item:hover .portfolio-info {
   opacity: 1;
   bottom: 0;
 }

@@ -208,7 +208,7 @@
   });
 
   /**
-   * Porfolio isotope and filter
+   * ourwork isotope and filter
    */
   window.addEventListener('load', () => {
     let portfolioContainer = select('.portfolio-container');

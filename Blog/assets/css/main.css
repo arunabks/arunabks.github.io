@@ -21,12 +21,12 @@ body {
 }
 
 a {
-  color:blue;
+  color:rgb(255, 255, 255);
   text-decoration: none;
 }
 
 a:hover {
-  color:rgb(255, 255, 255);
+  color:rgb(0, 0, 0);
   text-decoration: none;
 }
 
@@ -52,7 +52,8 @@ section {
 }
 
 .section-header {
-  border-bottom: 2px solid var(--color:black);
+  border-bottom: 2px solid; 
+  color: var(--color-black);
 }
 
 
@@ -1283,3 +1284,34 @@ footer{
         margin: 4px;
     }
 }
+
+<style> 
+body { 
+    display: flex; 
+    flex-direction: column; 
+    align-items: center; 
+    justify-content: center; 
+    height: 100vh; 
+    margin: 0; 
+    font-family: sans-serif; 
+} 
+
+h1 { 
+    color: #308d46; 
+} 
+
+#downloadButton { 
+    padding: 10px 20px; 
+    font-size: 16px; 
+    background-color: #007bff; 
+    color: #fff; 
+    border: none; 
+    cursor: pointer; 
+} 
+
+#countdown { 
+    display: none; 
+    font-size: 24px; 
+    margin-top: 20px; 
+} 
+</style> 

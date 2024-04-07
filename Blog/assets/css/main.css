@@ -21,7 +21,7 @@ body {
 }
 
 a {
-  color: var(--color-links);
+  color: blue;
   text-decoration: none;
 }
 

@@ -52,7 +52,7 @@ section {
 }
 
 .section-header {
-  border-bottom: 2px solid var(--color:black);
+  border-bottom: 2px solid var(--color: black);
 }
 
 
@@ -1282,4 +1282,7 @@ footer{
         padding: 8px;
         margin: 4px;
     }
+}
+.a {
+  color:blue
 }

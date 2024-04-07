@@ -21,7 +21,7 @@ body {
 }
 
 a {
-  color: blue;
+  color: #0000FF;
   text-decoration: none;
 }
 
@@ -1282,3 +1282,7 @@ footer{
         padding: 8px;
         margin: 4px;
     }
+}
+.a {
+  color:blue
+}

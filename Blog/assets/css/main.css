@@ -52,7 +52,8 @@ section {
 }
 
 .section-header {
-  border-bottom: 2px solid var(--color: black);
+  border-bottom: 2px solid; 
+  color: #000000;
 }
 
 

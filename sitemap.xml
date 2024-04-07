@@ -9,15 +9,39 @@
 
 <url>
   <loc>https://www.graphicguru.me/</loc>
-  <lastmod>2024-03-28T07:56:28+00:00</lastmod>
-  <changefreq>weekly</changefreq>
+  <lastmod>2024-04-07T12:51:41+00:00</lastmod>
+  <changefreq>daily</changefreq>
   <priority>1.00</priority>
 </url>
 <url>
   <loc>https://www.graphicguru.me/index.html</loc>
-  <lastmod>2024-03-28T07:56:28+00:00</lastmod>
-  <changefreq>weekly</changefreq>
+  <lastmod>2024-04-07T12:51:41+00:00</lastmod>
+  <changefreq>daily</changefreq>
   <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.graphicguru.me/Blog/blog.html</loc>
+  <lastmod>2024-04-07T12:51:41+00:00</lastmod>
+  <changefreq>daily</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.graphicguru.me/Blog/howtoinstalltelugu2anu.html</loc>
+  <lastmod>2024-04-07T12:51:41+00:00</lastmod>
+  <changefreq>daily</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.graphicguru.me/Blog/secondpost.html</loc>
+  <lastmod>2024-04-07T12:51:41+00:00</lastmod>
+  <changefreq>daily</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.graphicguru.me/Blog/firstpost.html</loc>
+  <lastmod>2024-04-07T12:51:41+00:00</lastmod>
+  <changefreq>daily</changefreq>
+  <priority>0.64</priority>
 </url>
 
 

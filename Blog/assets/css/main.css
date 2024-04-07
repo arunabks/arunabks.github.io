@@ -21,12 +21,12 @@ body {
 }
 
 a {
-  color: var(--color-links);
+  color:blue;
   text-decoration: none;
 }
 
 a:hover {
-  color: var(--color-links-hover);
+  color:blue;
   text-decoration: none;
 }
 

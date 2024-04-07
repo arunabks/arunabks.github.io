@@ -21,7 +21,7 @@ body {
 }
 
 a {
-  color: #0040ff;
+  color: var(--color-links);
   text-decoration: none;
 }
 
@@ -52,8 +52,7 @@ section {
 }
 
 .section-header {
-  border-bottom: 2px solid; 
-  color: #000000;
+  border-bottom: 2px solid var(--color: black);
 }
 
 
@@ -1283,7 +1282,4 @@ footer{
         padding: 8px;
         margin: 4px;
     }
-}
-.a {
-  color:blue
 }

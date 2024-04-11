@@ -567,37 +567,7 @@
                 
 
 
-                <div style="text-align: center;">
-                  <a class="button" href="https://uidai.gov.in/en/my-aadhaar/get-aadhaar.html" id="download" target="_blank"><i class="fa fa-download"></i>Generate link</a>
-                  
-                  <button class="ddd" id="btn"><i class="fa fa-download"></i>Download Here</button>
-                  
-                  <script>
-                  var downloadButton = document.getElementById("download");
-                  var counter = 15;
-                  var newElement = document.createElement("p");
-                  newElement.innerHTML = "<b>15 seconds to Wait.</b>";
-                  var id;
-                  
-                  downloadButton.parentNode.replaceChild(newElement, downloadButton);
-                  
-                  function getlink() {
-                      this.style.display = 'none';
-                      id = setInterval(function () {
-                          counter--;
-                          if (counter < 0) {
-                              newElement.parentNode.replaceChild(downloadButton, newElement);
-                              clearInterval(id);
-                          } else {
-                              newElement.innerHTML = +counter.toString() + " <b> seconds to Wait.</b>";
-                          }
-                      }, 1000);
-                  };
-                  
-                  var clickbtn = document.getElementById("btn");
-                  clickbtn.onclick = getlink;
-                  </script></div>
-
+               
 
               </span>
             </p>

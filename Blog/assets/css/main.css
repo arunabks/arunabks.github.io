@@ -1325,7 +1325,12 @@ footer{
         } 
  
 
-        .single .entry-content a:not(table a):not(.impeka) {
-          border-bottom: 1px dotted var(--link-color);
+        .external-link {
+          color: blue;
+          text-decoration: none;
+      }
+      
+      .external-link:hover {
+          text-decoration: underline;
       }
       

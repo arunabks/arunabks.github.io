@@ -563,33 +563,11 @@
             </p>
             <p style="text-align: left;">
               <span style="font-family: Urbanist;">
-                &nbsp;Website Link :
+                &nbsp;Website Link : 
+                <a href="https://uidai.gov.in/en/my-aadhaar/get-aadhaar.html" target=_blank title="Website Link">
+                  </a>
+    
 
-                <div class="container">
-                  <div class="timer">
-                      <p id="seconds">10 Seconds</p>
-                  </div>
-                  <div class="btn">
-                      <button id="get-link-btn">Wait</button>
-                  </div>
-              </div>
-              <script>
-                  time = 9;
-                  button = document.getElementById('get-link-btn');
-                  let timer = setInterval(function(){
-                      document.getElementById('seconds').innerHTML = time + ' Seconds';
-                      time = time - 1;
-                      if(time<0){
-                          clearInterval(timer);
-                          button.style.backgroundColor = '#0044ff';
-                          button.style.cursor = 'pointer';
-                          button.innerHTML = 'Get Link';
-                          button.onclick = function(){
-                              window.location.href = 'https://uidai.gov.in/en/my-aadhaar/get-aadhaar.html';
-                          };
-                      }
-                  },1000);
-              </script>
               </span>
             </p>
             <h3 style="text-align: left;">

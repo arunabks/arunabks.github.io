@@ -565,6 +565,50 @@
               <span style="font-family: Urbanist;">
                 &nbsp;website link         
               </span>
+
+              
+              <button id="downloadButton"> 
+                Download 
+            </button> 
+              
+            <div id="countdown"></div> 
+          
+            <script> 
+                const downloadButton = document.getElementById("downloadButton"); 
+                const countdown = document.getElementById("countdown"); 
+                const downloadLink = "download_content/sample_text_file.txt"; 
+          
+                let timer; 
+                let countdownValue = 15; 
+          
+                downloadButton.addEventListener("click", function () { 
+                    countdown.style.display = "block"; 
+          
+                    timer = setInterval(function () { 
+          
+                        if (countdownValue <= 0) { 
+                            clearInterval(timer); 
+                            countdown.innerHTML = "Downloading..."; 
+                            setTimeout(function () { 
+                                const a = document.createElement("a"); 
+                                a.style.display = "none"; 
+                                a.href = "https://drive.google.com/file/d/1sB8Tig_4QDqAcdft1gnh3n6Z7NQKDp6s/view?usp=sharing" ; 
+                                a.setAttribute("download", ""); 
+                                document.body.appendChild(a); 
+                                a.click(); 
+                            }, 1000); 
+                        } else { 
+                            countdown.innerHTML = 
+                        `Starting download in ${countdownValue} seconds...`; 
+                        } 
+                        countdownValue--; 
+                    }, 1000); 
+                }); 
+            </script> 
+            <br />
+
+
+
             </p>
             <h3 style="text-align: left;">
               <span style="font-family: Urbanist;">

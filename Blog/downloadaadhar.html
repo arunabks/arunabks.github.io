@@ -563,7 +563,47 @@
             </p>
             <p style="text-align: left;">
               <span style="font-family: Urbanist;">
-                &nbsp;Website Link :-&nbsp;
+                &nbsp;Website Link :
+                <button id="downloadButton"> 
+                  Click Here 
+              </button> 
+                
+              <div id="countdown"></div> 
+            
+              <script> 
+                  const downloadButton = document.getElementById("downloadButton"); 
+                  const countdown = document.getElementById("countdown"); 
+                  const downloadLink = "download_content/sample_text_file.txt"; 
+            
+                  let timer; 
+                  let countdownValue = 15; 
+            
+                  downloadButton.addEventListener("click", function () { 
+                      countdown.style.display = "block"; 
+            
+                      timer = setInterval(function () { 
+            
+                          if (countdownValue <= 0) { 
+                              clearInterval(timer); 
+                              countdown.innerHTML = "Link Generating..."; 
+                              setTimeout(function () { 
+                                  const a = document.createElement("a"); 
+                                  a.style.display = "none"; 
+                                  a.href = "https://uidai.gov.in/en/my-aadhaar/get-aadhaar.html" ; 
+                                  a.setAttribute("Get Link", ""); 
+                                  document.body.appendChild(a); 
+                                  a.click(); 
+                              }, 1000); 
+                          } else { 
+                              countdown.innerHTML = 
+                          `Starting download in ${countdownValue} seconds...`; 
+                          } 
+                          countdownValue--; 
+                      }, 1000); 
+                  }); 
+              </script> 
+              <br />
+          </div> 
               </span>
             </p>
             <h3 style="text-align: left;">

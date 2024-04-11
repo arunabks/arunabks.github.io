@@ -52,7 +52,7 @@ section {
 }
 
 .section-header {
-  border-bottom: 2px solid var(--color:black);
+  border-bottom: 2px solid var(black);
 }
 
 
@@ -941,9 +941,7 @@ section {
 /*--------------------------------------------------------------
 # Comments
 --------------------------------------------------------------*/
-.comment {
-  /* Font not working in <textarea> for this version of bs */
-}
+
 
 .comment .avatar {
   position: relative;

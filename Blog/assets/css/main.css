@@ -52,7 +52,7 @@ section {
 }
 
 .section-header {
-  border-bottom: 2px solid var(--color:black);
+  border-bottom: 2px solid var(black);
 }
 
 
@@ -1294,7 +1294,7 @@ footer{
     }
 }
 
- <style> 
+
         body { 
             display: flex; 
             flex-direction: column; 
@@ -1323,4 +1323,14 @@ footer{
             font-size: 24px; 
             margin-top: 20px; 
         } 
-    </style> 
+ 
+
+        .external-link {
+          color: blue;
+          text-decoration: none;
+      }
+      
+      .external-link:hover {
+          text-decoration: underline;
+      }
+      
